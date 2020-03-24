@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebOpenAPI-Swagger</name>
+    </assembly>
+    <members>
+        <member name="M:WebOpenAPI_Swagger.Controllers.ValuesController.Get">
+            <summary>
+            get api values
+            </summary>
+            <returns>return values</returns>
+        </member>
+        <member name="M:WebOpenAPI_Swagger.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            get a value with specific id
+            </summary>
+            <param name="id">id</param>
+            <returns>return a value</returns>
+        </member>
+        <member name="M:WebOpenAPI_Swagger.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            add a new value
+            </summary>
+            <param name="value">value</param>
+        </member>
+        <member name="M:WebOpenAPI_Swagger.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            update a value
+            </summary>
+            <param name="id">value id</param>
+            <param name="value">value</param>
+        </member>
+    </members>
+</doc>
