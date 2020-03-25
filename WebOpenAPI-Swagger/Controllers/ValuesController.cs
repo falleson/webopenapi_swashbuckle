@@ -29,7 +29,7 @@ namespace WebOpenAPI_Swagger.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value 2";
+            return "value 1";
         }
 
         /// <summary>
@@ -53,6 +53,10 @@ namespace WebOpenAPI_Swagger.Controllers
         {
         }
 
+        /// <summary>
+        /// delete a record
+        /// </summary>
+        /// <param name="id">object id</param>
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
